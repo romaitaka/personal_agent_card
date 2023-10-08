@@ -277,3 +277,16 @@ a {
         margin: 20px auto;
     }
 }
+
+@media screen and (max-width: 575px) {
+    .card {
+        width: 100%;
+    }
+
+    .header {
+        margin: 25px auto;
+        padding: 0 25px;
+        width: 100%;
+    }
+
+}
