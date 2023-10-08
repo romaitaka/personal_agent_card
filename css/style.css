@@ -257,6 +257,10 @@ a {
 /* Small: 576px - 767px */
 
 @media screen and (max-width: 767px) {
+    .body {
+        flex-direction: column;
+    }
+
     .card {
         width: 576px;
     }
@@ -281,12 +285,28 @@ a {
 @media screen and (max-width: 575px) {
     .card {
         width: 100%;
+        margin: 5px;
     }
 
     .header {
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+        gap: 10px;
         margin: 25px auto;
-        padding: 0 25px;
+        padding: 0;
         width: 100%;
     }
 
+    .form {
+        width: 80%;
+    }
+
+    .about {
+        width: 80%;
+    }
+
+    .pulse-button {
+        margin: 32px auto;
+    }
 }
